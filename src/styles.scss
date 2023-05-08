@@ -1,4 +1,39 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.mr-16 {
+  margin-right: 16px;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.mt-32 {
+  margin-top: 32px;
+}
+
+.mdc-dialog__title + .mdc-dialog__content,
+.mdc-dialog .mdc-dialog__content {
+  padding: 20px 24px 20px 24px !important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  appearance: textfield;
+  -moz-appearance: textfield;
+}
